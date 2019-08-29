@@ -1,4 +1,4 @@
-//ARRAY cpp
+//ARRAY CPP
 
 #include <iostream>
 using namespace std;
