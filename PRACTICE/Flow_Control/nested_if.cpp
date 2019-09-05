@@ -10,13 +10,16 @@ int alt{};
 int main() {
 	cout<<"Enter altitude: "<<endl;
 	cin>>altitude;
-	if (altitude<=20)
+	if (altitude<=20) {
 		cout<<"Enter altitude less than 20: "<<endl;
 	   cin>>alt;
 	  if(alt<11)
 		cout<<"Gradient Layer"<<endl;
 	   else
-	    cout<<" Isothermal layer"<<endl;
+	    cout<<" Isothermal layer"<<endl; }
+	else {
+	  cout<<"The altitude is higher than 20km"<<endl;
+	}
 	return 0;
 }	
      
