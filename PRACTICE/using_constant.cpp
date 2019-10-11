@@ -6,9 +6,9 @@ const int day{30};
 int small_room{0},large_room{0};
 int main() {
 	cout<<"Welcome to Sunil carpet cleaning service\n\n";
-	cout<<"Enter the number of small rooms :";
+	cout<<"Enter the no of small rooms :";
 	cin>> small_room;
-	cout<<"Enter the number of large rooms: ";
+	cout<<"Enter the no of large rooms: ";
 	cin>> large_room;
 	cout<<"Charges: ";
 	cout<<"/nTax is: $"<< tax*day*(small_room + large_room)<<endl;
